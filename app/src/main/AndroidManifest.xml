@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oranmoshe.finalmobileproject" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainLogin"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        er
+        <activity
+            android:name=".MainActivityCreateManager"
+            android:label="@string/title_activity_main_activity_create_m" >
+        </activity>
+        <activity android:name=".MainActivityCreateTeam" >
+        </activity>
+        <activity
+            android:name=".CreateNewTask"
+            android:label="@string/title_activity_create_new_task"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".TasksList" >
+        </activity>
+        <activity android:name=".TaskView" >
+        </activity>
+    </application>
+
+</manifest>
